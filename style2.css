@@ -1,0 +1,1038 @@
+.menu  a:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 20px;
+    color: black;
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
+.filtration a:hover {
+  color: #0065FC;
+  font-style:oblique;
+  font-size: 15px;
+  transition-duration: 2s;
+}
+a > img.photo1 {
+    object-fit: cover; 
+}
+a > img.photo {
+    object-fit: cover;
+}
+a > img.photo2 {
+    object-fit: cover;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60em;
+    font-weight:normal;
+    margin-top: 2em;
+}
+ul.menu > li > a {
+    text-decoration: none;
+    color: #0065FC;
+    font-size: 14px;
+    margin-right: 2em;
+}
+.registre {
+    visibility: hidden;
+}
+.image {
+    margin-top: -3em;
+    margin-left: 1em;
+}
+.vacance {
+    font-size: 15px;
+    margin-left: 18px;
+    font-weight:bold;
+    margin-top: 0em;
+}
+.ville {
+    font-size: 13px;
+    margin-left: 18px;
+    font-weight: normal;
+    opacity: 0.8;
+}
+.fa-map-marker-alt {
+    border-top-left-radius:10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    background-color:#F2F2F2;
+    padding:0.8em;
+    margin-left: 1em;
+}
+.search_data {
+    border-radius: 10px 10px;
+    padding-top: 12.5px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    margin-left: -10px;
+    border: 0.1px solid #F2F2F2;
+    font-weight: bold;
+}
+.Recherche {
+    font-family: Raleway;
+    background-color: #0065FC;
+    border: 1px solid #F2F2F2 ;
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius:10px 10px; ;
+    padding: 12.5px;
+    color: #F2F2F2;
+    margin-left: -1.5em;
+    font-weight: bold;
+}
+.fa-search {
+    visibility: hidden;
+}
+.filtration  {
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+    font-size:14px ;
+    font-weight: bold;
+    margin-left: -25px;   
+} 
+.filtration > li  {
+    margin-right: 2em;
+    margin-top: 1em ;
+}
+.filtration > li > a {
+    color: black;
+    text-decoration: none;
+}
+.fa-money-bill-wave, .fa-dog, .fa-child, .fa-heart {
+    color: blue;
+    background-color:#DEEBFF;
+    border-radius: 100%;
+    padding: 1em;
+}
+.amour, .economic, .animal, .famille {
+    border-top: 1px solid #A0A0A0;
+    border-bottom: 1px solid #A0A0A0;
+    border-right: 1px solid #A0A0A0;
+    border-radius: 20px 20px;
+}
+li.economic {
+    width: 11%;
+}
+li.amour {
+    width: 11%;
+}
+li.animal {
+    width: 15%;
+}
+li.famille {
+    width: 11%;
+}
+ li.filtre  {
+    margin-top: 25px;
+}
+.logoinfo {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-left: 35px;
+    margin-top: 2em;
+    margin-left: 10px;
+}
+.fa-info-circle {
+    color: #0065FC;
+}
+article {
+    background-color : #F2F2F2;
+    border-radius : 20px 20px;
+    width : 61%;
+    height: 500px;
+    margin: 2em;
+    padding-top : 3.3em;
+    padding-right: 19px;
+    display : flex;
+    flex-wrap : wrap;
+}
+.hebergement, .panier, .amina, .hotel, .ports, .mer {
+    background-color:white;
+    width : 220px;
+    height: 170px;
+    margin : 15px 15px;
+    margin-left: 2em;
+    border-radius : 20px 20px;
+    padding: 0.2em;
+    font-size : 10px;
+}
+.photo {
+    border-top-left-radius : 20px;
+    border-top-right-radius : 20px;
+}
+article > h4 {
+    font-size: 15px;
+    margin-left: 1.5em;
+    margin-top: -2em;   
+}
+article > h4 > a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family : 'Raleway', sans-serif;
+}
+.fa-star {
+    color: blue;
+    margin-left: 0.3em;
+}
+.prix {
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: 6px;
+    font-weight: normal;
+    color: black;
+}
+.nom{
+    width: 120px;
+    height: 10px;
+    margin: 0.5em;
+    font-weight: bold;
+    font-size: 12px;
+    width: 140px;
+    color: black;
+}
+.gris {
+    color: #d9d9d9;
+}
+.etoile {
+    margin-top: 0px;
+    margin-left: 3px;
+}
+.hebergement {
+    margin-left: -16.5em;
+}
+div.mer {
+    margin-left: 30px;
+}
+.afficher {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    margin-left: 2em;
+    font-weight: bold;
+}
+.milieu {
+    background-color :#F2F2F2;
+    border-radius : 20px 20px;  
+    margin-right: 20px; 
+    height: 551px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: -584px;
+    width: 30%;
+}
+.photo1 {
+    border-top-left-radius : 10px;
+    border-bottom-left-radius : 10px;
+}
+.soleil, .coeur, .blanc {
+    background-color : white;
+    width : 85%;
+    height: 130px;
+    margin: 0.5em;
+    margin-left: 1.5em;
+    border-radius : 10px 10px;
+    padding :0.3em;
+    display : flex;
+}
+.soleil > a > img {
+    width: 120px;
+    height: 130px;
+}
+.coeur > a > img {
+    width: 120px;
+    height: 130px;
+}
+.blanc > a > img {
+    width: 120px;
+    height: 130px;
+}
+.nuit, .text {
+    height: 20px;   
+    width: 120px;
+    margin: 1em;
+    font-weight: bold;
+    font-size: 12px;
+}
+.nuit {
+ opacity: 0.8;
+ font-weight: normal;
+}
+.left > a {
+ text-decoration: none;
+ color: black;
+ margin: 2em; 
+}
+.fa-chart-line {
+  margin-left: 8em;
+}
+.etoiler {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.activitee  {
+    text-decoration:none;
+    color: black;
+    margin-left: 2em;
+}
+.frioul, .pomegue, .port, .parc, .dame, .longchamp {
+    box-shadow : 1px 1px 1px #CDCDCD;
+    border-radius : 10px 10px;
+    padding: 0.3em;
+}
+.frioul > a > img {
+    height: 100px;
+    width: 295px
+}
+.frioul {
+    width: 295px;
+    height: 130px;
+    margin-left: 29px;
+    margin-top: 20px;
+}
+.sortie{
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 13px;
+}
+.port > a > img {
+    width: 295px;
+    height: 300px; 
+}
+.pomegue > a > img {
+    height: 150px;
+    width: 295px;
+}
+.pomegue {
+    width: 295px;
+    height: 180px;
+    margin-left: 29px;
+}
+.parc > a > img {
+    width: 295px;
+    height: 300px;
+}
+.parc {
+    width: 295px;
+    height: 338px;
+    margin-top: -10px;
+    margin-right: 39px; 
+}
+.dame > a > img {
+    width: 295px;
+    height: 135px
+}
+.dame {
+    width: 295px;
+    height: 160px;
+    margin-top: -13px;
+    padding-top: 5px;
+    margin-left: -12px;
+}
+.longchamp > a > img {
+    width: 295px;
+    height: 135px;
+}
+.longchamp {
+    width: 295px;
+    height: 160px;
+    margin-top: 12px;
+    margin-left: -12px;
+}
+.port {
+    float: left;
+    margin-left: 1em;
+}
+.colonne {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.colonne2 {
+    display: flex;
+    flex-direction: column;
+}
+.sorties {
+    float: right;
+    display: flex;
+    margin-top: -21em;
+}
+footer li {
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+footer > .propo > ul > li > a {
+    text-decoration: none;
+    color: black;
+    margin-top: 0.5em;
+    margin-left: -3em;
+}
+footer > .assis > ul > li > a {
+    text-decoration: none;
+    color: black;
+    margin-top: 0.5em;
+    margin-left: -3em;
+}
+footer > .heberg > ul > li > a {
+    text-decoration: none;
+    color: black;
+    margin-top: 0.5em;
+    margin-left: -3em;
+}
+h4 > a {
+    text-decoration: none;
+    color: black ;
+    font-size: 14px;
+}
+footer {
+    display: flex;
+    justify-content:space-evenly;
+    width: 1340px;
+    margin-top: 150px;
+    background-color: #F2F2F2;
+}
+.propo {
+    margin-left: -290px;
+}
+section.activites.marseille > div > div >  a > img.photo2 {
+    object-fit: cover;
+}
+@media screen and (min-width:300px) and (max-width: 500px) {
+   ul.menu   {
+      margin-left: 0px;
+      font-weight: normal;
+      justify-content: space-evenly;
+      width: 90%;
+      border-bottom: 2px solid #F2F2F2;
+    }
+    div.image {
+        margin-top: -35px;
+    }
+    div.image > img {
+        width: 90px;
+    }
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    ul.menu > li > a {
+       margin: 0px;
+    }
+    .inscrire {
+        display: none;
+    } 
+    .menu a:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+    header {
+        margin-top: 30px;
+    }
+    .registre {
+        visibility: visible;
+        text-decoration: none;
+        color:#0065FC;
+        font-weight: bold;
+        justify-content: end;
+        display: flex;
+        margin-top: 20px;
+    }
+    div.image {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .vacance {
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .ville {
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .Recherche {
+        visibility: hidden;
+    }
+    .fa-search {
+        visibility: visible;
+        background-color:#0065FC;
+        padding: 12px;
+        margin-left: -95px;
+        border-radius: 10px 10px;
+        color: white;
+    }
+    .search_data {
+        width: 50%;
+    }
+    header {
+        width: 100%
+    }
+    ul.filtration {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        margin-top: -10px;
+    }
+    ul.filtration > li.economic {
+        width: 146px;
+    }
+    ul.filtration > li.amour {
+        width: 140px; 
+    }
+    ul.filtration > li.famille {
+        width: 110px;
+        margin-top: -45px;
+        margin-left: 150px;
+    }
+    ul.filtration > li.animal {
+        width: 180px;
+        margin-top: 9px;
+    }
+    section {
+        display: grid;
+    }
+    div.milieu {
+        order: 4;
+        height: 560px;
+        width: 100%;
+        margin-top:0px;
+        border-radius:0px 0px ;
+    }
+    .fas.fa-chart-line {
+        margin-left: 50px;
+    }
+    article {
+        order : 5;
+        background-color: transparent;
+        width:100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    div.hebergement {
+        margin-left:2em;
+    }
+    .activites.marseille {
+        order:6;
+        margin-top: 780px;
+        margin-right: 10px;
+    }
+    div.mer {
+        margin-left: 20px;
+    }
+    div.port, div.parc {
+        width: 290px;
+        height: 200px;
+    }
+    div.port > a > img {
+        height: 160px;
+        width: 290px;
+        padding: 3px;
+    }
+    div.parc > a > img {
+        height: 160px;
+        width: 290px;
+        padding: 3px;
+    }
+    div.sorties {
+        display: flex;
+        flex-direction: column;
+    }
+    div.hebergement, div.ports, div.hotel, div.mer, div.panier, div.amina {
+        width: 100%;
+        border:4px solid #F2F2F2;
+       }
+    article > div > a > img.photo {
+        width: 100%;
+        height: 100px;
+       }
+    section > div > div > a > img.photo2 {
+        width: 100%;
+        object-fit: cover;
+    }
+    div.parc, div.port, div.pomegue, div.frioul{
+        width: 100%;
+    }
+    div.sorties {
+        margin-top: 20px;
+    }
+    div.port, div.parc {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    div.frioul, div.pomegue, div.dame, div.longchamp {
+        margin-left: 0px;
+    }
+    footer {
+        display: inline-block;
+        flex-direction: column;
+        width: 100%;
+    }
+    div.propo {
+        margin-left: 0px;
+    }
+    div.dame, div.longchamp {
+        width: 100%;
+    }
+    div.colonne2 > div > a > img.photo2 {
+        width: 100%;
+    }
+    h4 > a#activity {
+        font-size: 20px;
+        margin-left: 39px;
+    }
+    a.afficher {
+        font-size: 16px;
+    }
+    article > h4 > a {
+        font-size: 20px;
+    }
+    div.milieu > div {
+        width: 95%;
+        margin-left: 0px;
+    }
+    div.milieu {
+        margin-right: 0px;
+    }
+    h4.left {
+        width: 100%; 
+    }
+    .fa-chart-line {
+        margin-left: 100px;
+    }
+    p.logoinfo {
+        margin-top: 0px;
+        width: 95%;
+    }
+}
+@media screen and (min-width:501px) and (max-width: 712px) {
+    ul.menu {
+        margin-left: 130px;
+        font-weight: normal;
+        justify-content: space-around;
+    }
+    ul.filtration {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: -10px;
+    }
+    ul.filtration > li {
+        width: 150px;
+    }
+    ul.filtration > li.famille {
+        width: 120px;
+    }
+    ul.filtration > li.animal {
+        width:180px;
+    }
+    ul.filtration > li.famille {
+        margin-top: -45px;
+        margin-left: 160px; 
+    }
+    ul.filtration > li.animal {
+        margin-top: -45px;
+        margin-left: 160px;
+    }
+    article {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+        height: 100%;
+        justify-content: center;
+    }
+    div.milieu {
+        margin-top: 0px;
+        float: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    h4.left {
+        width: 100%;
+    }
+    div.hebergement {
+        margin-left: -190px;
+    }
+    div.ports {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    div.mer {
+        margin-right: 0px;
+        margin-left: 25px;
+    }
+    div.hotel {
+        margin-left: 12px;
+        margin-right: -12px;
+    }
+    div.panier {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    div.amina {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    div.sorties {
+        float:none;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    section.activites.marseille {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    div.port {
+        margin-left: -133px;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+    div.parc {
+        margin-top: 30px;
+        margin-bottom: 25px; 
+        margin-right: 0px;
+    }
+    div.frioul {
+        margin-left: 10px;
+    }
+    div.pomegue {
+        margin-left: 10px;
+    }
+    div.longchamp {
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    footer {
+        width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    div.propo {
+        margin-left: 0px;
+    }
+    html > body > section > article {
+      height: 100%;
+    }
+    a.afficher {
+        width: 100%;
+    }
+    div.dame {
+        margin-left: 10px;
+    }
+    div.colonne {
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    div.colonne2 {
+        margin-top: 42px;
+        margin-left: -10px;
+    }
+    div.hebergement, div.hotel, div.ports, div.panier, div.mer, div.amina {
+        width: 46%;
+        height: auto;
+    }
+    a > img.photo {
+        width: 100%;
+    }
+    .fa-chart-line {
+        margin-left: 200px;
+    }
+
+}
+@media screen  and (min-width: 713px) and (max-width: 1102px) {
+    div.mer {
+        margin-left: 5px;
+    }
+    article > div.hebergement {
+        margin-right: 0px;
+        margin-left: -185px;
+    }
+    ul.menu {
+        margin-left: 350px;
+        justify-content: space-around;
+    }
+    ul.filtration > li.economic, li.amour, li.famille {
+        width: 160px;
+        height: 42px;
+    }
+    ul.filtration > li.animal {
+        width: 210px;
+        margin-right: 0px;
+    }
+    ul.filtration > li {
+        margin-right: 15px;
+    }
+    li.filtre {
+        margin-right: 10px;
+    }
+    li.famille {
+        width: 120px;
+    }
+    div.milieu {
+        margin-top: 0px;
+        float: none;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        background-color: transparent;
+    }
+    article {
+        width: 100%;
+        height: 100%;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    div.hebergement {
+        margin-left: -195px;
+    }
+    .fa-chart-line {
+        margin-left: 400px;
+    }
+    div.soleil, div.blanc, div.coeur {
+        width: 40%;
+        margin-top: -50px;
+        border: 4px solid #F2F2F2 ;
+    }
+    div.blanc {
+        margin-left: 200px;
+    }
+    div.sorties {
+        margin-top: 50px;
+        margin-bottom: 80px;
+        float: none;
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    div.propo {
+        margin-left: -50px;
+    }
+    a.afficher {
+        width: 100%;
+    }
+    div.port, div.parc {
+        width: 45%;
+    }
+    a > img.photo2{
+        width: 100%;
+    }
+    div.frioul, div.pomegue {
+        width: 85%;
+    }
+    div.dame, div.longchamp{
+        width: 98%;
+        margin-left: -1px;
+    }
+    div.colonne2 {
+        width: 45%;
+    }
+    div.hebergement, div.hotel, div.ports, div.panier, div.mer, div.amina {
+        width: 40%;
+        height: auto;
+    }
+    a > img.photo {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1017px)  {
+    article {
+        width: 90%;
+    }
+    article > div.hebergement {
+        margin-left: -190px;
+    }
+    div.ports {
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width: 1103px) and (max-width: 1300px)  {
+    ul.menu {
+        margin-left: 700px;
+        justify-content: end;
+    }
+    ul.filtration > li {
+        width: 150px;
+        height: 42px;
+    }
+    li.economic {
+        margin-left: -120px;
+    }
+    ul.filtration > li.famille {
+        width: 120px;
+    }
+    ul.filtration > li.animal {
+        width: 180px;
+    }
+    div.milieu {
+        margin-right: 5px;
+        width: 28%;
+    }
+    article {
+        width: 70%;
+        padding-right: 0px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    article > div.hebergement {
+        margin-right: 0px;
+        margin-left: -200px;
+    }
+    div.mer {
+        margin-left: 5px;
+        margin-right: 12px;
+    }
+    .fa-chart-line {
+        margin-left: 100px;
+    }
+    div.hotel {
+        margin-right: 5px;
+    }
+    a.afficher {
+        width: 100%;
+    }
+    div.colonne > div > a > img {
+        width: 100%;
+    }
+    div.pomegue, div.frioul {
+        width: 28%;
+        margin-left: 1px;
+    }
+    div.colonne2 {
+        margin-right: -87px;
+        margin-left: 10px;
+        width: 60%;
+    }
+    div.colonne2 > div {
+        width: 70%;
+    }
+    div.parc {
+        width: 45%;
+        margin-left: -15px;
+        margin-right: 8px;
+    }
+    footer {
+        justify-content: space-around;
+        width: 99%;
+    }
+    div.propo {
+        margin-left: 0px; 
+    }
+    div.port {
+        width: 25%;
+        margin-right: 5px;
+        margin-left: 0px;
+    }
+    .activites.marseille {
+        width: 95%;
+        margin-left: 29px;
+    }
+    a > img.photo2 {
+        width: 100%;
+    }
+    div.sorties {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1301px) {
+    article {
+        width: 65%;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 10px;
+        justify-content: center;
+    }
+    article > div.hebergement {
+        margin-right: -5px;
+        margin-left: -168px; 
+    }
+    div.parc {
+        margin-right: 20px;
+        margin-left: 5px;
+        width: 50%;
+    }
+    footer {
+        width: 99%;
+    }
+    div.frioul, div.pomegue {
+        margin-left: 10px; 
+    }
+    div.sorties {
+        margin-right: 20px;
+        width: 50%;
+    }
+    a.afficher {
+        width: 100%;
+    }
+    div.colonne2 {
+        width: 60%; 
+    }
+    div.port {
+        margin-left: 0px;
+        width: 23%;
+    }
+    section.activites.marseille {
+        width:100%;
+    }
+    div.pomegue, div.frioul {
+        width: 30%;
+    }
+    section.activites.marseille > div > div > a > img.photo2 {
+        width: 100%;
+    }
+    div.dame, div.longchamp {
+        width: 90%;
+    }
+    ul.menu {
+        justify-content: end;
+    }
+    div.colonne2 > div > a > img.photo2 {
+        width: 100%;
+    }
+    .hebergement, .mer, .panier, .ports, .amina, .hotel {
+        width: 27%;
+        height: 180px;
+    }
+    article > div > a > img.photo {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1501px) {
+    div.hebergement, div.mer, div.hotel, div.ports, div.panier, div.amina {
+    height: auto; 
+    margin-top: 0px;
+   }
+   .fa-chart-line {
+    margin-left: 190px;
+   }
+   ul.filtration {
+    width: 1300px;
+   }
+   .search_data {
+    width: 15%;
+   }
+}
