@@ -521,6 +521,9 @@ section.activites.marseille > div > div >  a > img.photo2 {
     div.hebergement {
         margin-left:2em;
     }
+    div.hebergement > a > p.nom {
+        width: 100%;
+    }
     .activites.marseille {
         order:6;
         margin-top: 780px;
