@@ -435,8 +435,18 @@ section.activites.marseille > div > div >  a > img.photo2 {
         display: none;
     } 
     .menu a:hover {
-        border-bottom: 2px solid #0065FC;
-        border-top: none;
+        border-top: none;   
+       
+    }
+    li > a.heberge:hover {
+        padding-left: 100px;
+        margin-left: -95px;
+        border-bottom: 2px solid #0065FC;    
+    }
+    li > a.activites:hover {
+        padding-right: 120px;
+        margin-right: -85px;
+        border-bottom: 2px solid #0065FC;  
     }
     header {
         margin-top: 30px;
@@ -699,6 +709,10 @@ section.activites.marseille > div > div >  a > img.photo2 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 100%;
+    }
+    section.activites.marseille > h4 {
+        margin-bottom: -2em;
     }
     section.activites.marseille {
         display: flex;
@@ -706,24 +720,32 @@ section.activites.marseille > div > div >  a > img.photo2 {
         flex-wrap: wrap;
     }
     div.port {
-        margin-left: -133px;
+        margin-left: -1px;
         margin-top: 70px;
         margin-bottom: 20px;
+        width:98%;
     }
     div.parc {
         margin-top: 30px;
         margin-bottom: 25px; 
         margin-right: 0px;
+        width:100%;
     }
     div.frioul {
         margin-left: 10px;
+        width:98%;
     }
     div.pomegue {
         margin-left: 10px;
+        width:98%;
     }
     div.longchamp {
         margin-top: 8px;
         margin-left: 10px;
+        width:98%;
+    }
+    a > img.photo2 {
+        width:100%;
     }
     footer {
         width: 100%;
@@ -743,14 +765,17 @@ section.activites.marseille > div > div >  a > img.photo2 {
     }
     div.dame {
         margin-left: 10px;
+        width: 98%;
     }
     div.colonne {
         margin-top: 50px;
         margin-left: -10px;
+        width: 100%;
     }
     div.colonne2 {
         margin-top: 42px;
         margin-left: -10px;
+        width: 100%;
     }
     div.hebergement, div.hotel, div.ports, div.panier, div.mer, div.amina {
         width: 46%;
@@ -793,6 +818,14 @@ section.activites.marseille > div > div >  a > img.photo2 {
     li.famille {
         width: 120px;
     }
+    div.tout {
+        display: flex;
+        flex-direction: row;
+    }
+    .soleil, .blanc, .coeur {
+        width:90%;
+        margin-left: 0px;
+    }
     div.milieu {
         margin-top: 0px;
         float: none;
@@ -800,7 +833,7 @@ section.activites.marseille > div > div >  a > img.photo2 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 550px;
+        height: 150px;
         background-color: transparent;
     }
     article {
@@ -819,7 +852,7 @@ section.activites.marseille > div > div >  a > img.photo2 {
     }
     div.tout{
         display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
     }
     div.sorties {
@@ -863,10 +896,13 @@ justify-content: center;
     a > img.photo {
         width: 100%;
     }
+    section.activites.marseille{
+        margin-top: 100px;
+    }
 }
 @media screen and (min-width: 1017px)  {
     article {
-        width: 90%;
+        width: 100%;
     }
     article > div.hebergement {
         margin-left: -190px;
